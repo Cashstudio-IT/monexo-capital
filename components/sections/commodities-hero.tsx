@@ -3,10 +3,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import CrudeOilIcon from "@/components/icons/crude-oil.svg";
-import GoldIcon from "@/components/icons/gold.svg";
-import SilverIcon from "@/components/icons/silver.svg";
-import AgricultureIcon from "@/components/icons/agriculture.svg";
 
 // ─── SVG Icons ────────────────────────────────────────────────────────────────
 
@@ -258,7 +254,7 @@ export default function CommoditiesHero() {
 
                             {/* Card 1 */}
                             <div>
-                                <CrudeOilIcon className="h-14 w-14" />
+                                <img src="/icons/crude-oil.svg" alt="Crude Oil" className="h-14 w-14" />
                                 <h3 className="mt-5 text-[18px] font-semibold text-[#1F1F1F]">
                                     Crude Oil (WTI & Brent)
                                 </h3>
@@ -271,7 +267,7 @@ export default function CommoditiesHero() {
 
                             {/* Card 2 */}
                             <div>
-                                <GoldIcon className="h-14 w-14" />
+                                <img src="/icons/gold.svg" alt="Gold" className="h-14 w-14" />
                                 <h3 className="mt-5 text-[18px] font-semibold text-[#1F1F1F]">
                                     Gold
                                 </h3>
@@ -283,7 +279,7 @@ export default function CommoditiesHero() {
 
                             {/* Card 3 */}
                             <div>
-                                <SilverIcon className="h-14 w-14" />
+                                <img src="/icons/silver.svg" alt="Silver" className="h-14 w-14" />
                                 <h3 className="mt-5 text-[18px] font-semibold text-[#1F1F1F]">
                                     Silver
                                 </h3>
@@ -295,7 +291,7 @@ export default function CommoditiesHero() {
 
                             {/* Card 4 */}
                             <div>
-                                <AgricultureIcon className="h-14 w-14" />
+                                <img src="/icons/agriculture.svg" alt="Agriculture" className="h-14 w-14" />
                                 <h3 className="mt-5 text-[18px] font-semibold text-[#1F1F1F]">
                                     Agricultural Commodities
                                 </h3>
