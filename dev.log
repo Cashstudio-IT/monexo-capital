@@ -1,0 +1,99 @@
+
+> monexo-site@0.1.0 dev
+> next dev --webpack
+
+▲ Next.js 16.1.6 (webpack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.3.223:3000
+
+✓ Starting...
+✓ Ready in 4.2s
+ GET /currencies 200 in 3.2s (compile: 2.3s, render: 867ms)
+ GET / 200 in 3.4s (compile: 2.8s, render: 586ms)
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ ./app/page.tsx
+Attempted import error: '@/components/sections/hero' does not contain a default export (imported as 'Hero').
+
+Import trace for requested module:
+./app/page.tsx
+ GET / 200 in 182ms (compile: 116ms, render: 66ms)
+⚠ ./app/page.tsx
+Attempted import error: '@/components/sections/hero' does not contain a default export (imported as 'Hero').
+
+Import trace for requested module:
+./app/page.tsx
+⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+    at ignore-listed frames {
+  digest: '2626589254'
+}
+ GET / 500 in 553ms (compile: 112ms, render: 441ms)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 1519ms (compile: 1208ms, render: 311ms)
+ GET / 200 in 247ms (compile: 17ms, render: 229ms)
+ GET / 200 in 102ms (compile: 53ms, render: 49ms)
+ GET / 200 in 100ms (compile: 7ms, render: 94ms)
+ GET / 200 in 227ms (compile: 119ms, render: 108ms)
+ GET / 200 in 177ms (compile: 127ms, render: 50ms)
+⚠ Fast Refresh had to perform a full reload when exo\\monexo-site\\node_modules\\next\\dist\\client\\app-dir\\link.js","ids":[]} changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 252ms (compile: 5ms, render: 247ms)
+ GET /images/hero/markets-bg.jpg 404 in 1626ms (compile: 1361ms, render: 265ms)
+ GET / 200 in 529ms (compile: 211ms, render: 318ms)
+ GET / 200 in 47ms (compile: 13ms, render: 34ms)
+ GET / 200 in 143ms (compile: 7ms, render: 136ms)
+ GET /images/hero/markets-bg.jpg 404 in 660ms (compile: 482ms, render: 178ms)
+ GET / 200 in 151ms (compile: 92ms, render: 59ms)
+ GET / 200 in 127ms (compile: 9ms, render: 118ms)
+ GET /images/hero/markets-bg.jpg 404 in 65ms (compile: 17ms, render: 48ms)
+ GET / 200 in 107ms (compile: 74ms, render: 32ms)
+ GET / 200 in 125ms (compile: 75ms, render: 51ms)
+ GET / 200 in 71ms (compile: 33ms, render: 38ms)
+ GET / 200 in 115ms (compile: 4ms, render: 111ms)
+ GET /images/hero/markets-bg.jpg 404 in 601ms (compile: 473ms, render: 127ms)
+ GET / 200 in 180ms (compile: 124ms, render: 56ms)
+ GET / 200 in 160ms (compile: 4ms, render: 156ms)
+ GET /images/hero/markets-bg.jpg 404 in 923ms (compile: 729ms, render: 194ms)
+ GET / 200 in 103ms (compile: 18ms, render: 85ms)
+ GET /images/hero/markets-bg.jpg 404 in 81ms (compile: 9ms, render: 72ms)
+ GET / 200 in 112ms (compile: 9ms, render: 104ms)
+ GET /images/hero/markets-bg.jpg 404 in 78ms (compile: 13ms, render: 65ms)
+ GET / 200 in 203ms (compile: 136ms, render: 67ms)
+ GET /images/hero/markets-bg.jpg 404 in 617ms (compile: 502ms, render: 115ms)
+ GET / 200 in 125ms (compile: 14ms, render: 111ms)
+ GET /images/hero/markets-bg.jpg 404 in 99ms (compile: 12ms, render: 86ms)
+ GET / 200 in 143ms (compile: 70ms, render: 73ms)
+ GET / 200 in 141ms (compile: 63ms, render: 77ms)
+ GET /images/hero/markets-bg.jpg 404 in 183ms (compile: 22ms, render: 161ms)
+ GET / 200 in 70ms (compile: 4ms, render: 67ms)
+ GET /images/hero/markets-bg.jpg 404 in 95ms (compile: 18ms, render: 77ms)
+ GET / 200 in 54ms (compile: 8ms, render: 46ms)
+ GET /images/hero/markets-bg.jpg 404 in 55ms (compile: 7ms, render: 48ms)
+ GET / 200 in 45ms (compile: 3ms, render: 42ms)
+ GET /images/hero/markets-bg.jpg 404 in 49ms (compile: 6ms, render: 43ms)
+ GET /stocks 200 in 1549ms (compile: 1492ms, render: 57ms)
+ GET /stocks 200 in 28ms (compile: 4ms, render: 24ms)
+ GET / 200 in 34ms (compile: 11ms, render: 23ms)
+ GET /images/hero/markets-bg.jpg 404 in 780ms (compile: 632ms, render: 148ms)
+ GET / 200 in 216ms (compile: 168ms, render: 48ms)
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 142ms (compile: 11ms, render: 130ms)
+ GET / 200 in 49ms (compile: 4ms, render: 45ms)
+ GET /images/hero/markets-bg.jpg 404 in 1121ms (compile: 914ms, render: 207ms)
+ GET / 200 in 155ms (compile: 92ms, render: 63ms)
+ GET / 200 in 203ms (compile: 135ms, render: 68ms)
+ GET /images/hero/markets-bg.jpg 404 in 971ms (compile: 740ms, render: 232ms)
+ GET / 200 in 303ms (compile: 119ms, render: 183ms)
+ GET / 200 in 140ms (compile: 92ms, render: 48ms)
+ GET / 200 in 95ms (compile: 42ms, render: 53ms)
+ GET / 200 in 95ms (compile: 6ms, render: 89ms)
+ GET / 200 in 47ms (compile: 4ms, render: 43ms)
+ GET / 200 in 126ms (compile: 86ms, render: 40ms)
+ GET / 200 in 139ms (compile: 88ms, render: 51ms)
+ GET /images/hero/markets-bg.jpg 404 in 911ms (compile: 684ms, render: 227ms)
+ GET / 200 in 114ms (compile: 20ms, render: 94ms)
+ GET /images/hero/markets-bg.jpg 404 in 60ms (compile: 9ms, render: 51ms)
+○ Compiling /stocks ...
+ GET /stocks 200 in 5.5s (compile: 3.8s, render: 1636ms)
+ GET / 200 in 291ms (compile: 36ms, render: 255ms)
+ GET /images/hero/markets-bg.jpg 404 in 2.8s (compile: 2.4s, render: 433ms)
+ GET /stocks 200 in 794ms (compile: 44ms, render: 750ms)
+^C^C
