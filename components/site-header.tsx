@@ -152,11 +152,11 @@ export default function SiteHeader() {
                 </Link>
 
                 {/* Nav */}
-                <nav className="hidden items-center gap-8 md:flex">
+                <nav className="hidden items-center gap-8 md:flex" style={{ fontFamily: 'var(--font-work-sans), "Work Sans", sans-serif' }}>
                     <Link
                         href="/"
                         className={[
-                            "text-sm font-medium transition",
+                            "text-[15px] font-medium transition",
                             isActive("/") ? "text-white" : "text-white/75 hover:text-white",
                         ].join(" ")}
                     >
@@ -166,7 +166,7 @@ export default function SiteHeader() {
                     <Link
                         href="/about"
                         className={[
-                            "text-sm font-medium transition",
+                            "text-[15px] font-medium transition",
                             isActive("/about") ? "text-white" : "text-white/75 hover:text-white",
                         ].join(" ")}
                     >
@@ -185,7 +185,7 @@ export default function SiteHeader() {
                             type="button"
                             onClick={() => setOpen((v) => !v)}
                             className={[
-                                "inline-flex items-center gap-1.5 text-sm font-medium transition",
+                                "inline-flex items-center gap-1.5 text-[15px] font-medium transition",
                                 isActive("/indices") || isActive("/stocks") || isActive("/commodities") || isActive("/currencies")
                                     ? "text-[#9E7C3E]"
                                     : "text-white/75 hover:text-white",
@@ -201,7 +201,7 @@ export default function SiteHeader() {
                     <Link
                         href="/download-platform"
                         className={[
-                            "text-sm font-medium transition",
+                            "text-[15px] font-medium transition",
                             isActive("/download-platform") ? "text-white" : "text-white/75 hover:text-white",
                         ].join(" ")}
                     >
@@ -211,7 +211,7 @@ export default function SiteHeader() {
                     <Link
                         href="/contact"
                         className={[
-                            "text-sm font-medium transition",
+                            "text-[15px] font-medium transition",
                             isActive("/contact") ? "text-white" : "text-white/75 hover:text-white",
                         ].join(" ")}
                     >
@@ -220,17 +220,17 @@ export default function SiteHeader() {
                 </nav>
 
                 {/* Right actions */}
-                <div className="flex items-center gap-5">
+                <div className="flex items-center gap-5" style={{ fontFamily: 'var(--font-work-sans), "Work Sans", sans-serif' }}>
                     <Link
                         href="/login"
-                        className="hidden text-sm font-medium text-white/75 hover:text-white md:inline-flex"
+                        className="hidden text-[15px] font-medium text-white/75 hover:text-white md:inline-flex"
                     >
                         Log In
                     </Link>
 
                     <Link
                         href="/register"
-                        className="inline-flex h-10 items-center justify-center bg-[#9E7C3E] px-5 text-sm font-semibold text-white transition hover:opacity-90"
+                        className="inline-flex h-10 items-center justify-center bg-[#9E7C3E] px-5 text-[15px] font-semibold text-white transition hover:opacity-90"
                     >
                         Open an Account
                     </Link>

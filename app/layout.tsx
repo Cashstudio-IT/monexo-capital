@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Work_Sans } from "next/font/google";
 import "./globals.css";
 import SiteHeader from "@/components/site-header";
 import SiteFooter from "@/components/site-footer";
@@ -13,6 +14,12 @@ const tasaOrbiter = localFont({
     { path: '../public/fonts/TASAOrbiter-ExtraBold.ttf', weight: '800' },
   ],
   variable: '--font-tasa-orbiter',
+});
+
+const workSans = Work_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-work-sans',
 });
 
 export const metadata: Metadata = {
@@ -29,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={tasaOrbiter.variable}>
+    <html lang="en" className={`${tasaOrbiter.variable} ${workSans.variable}`}>
       <body
         className="font-sans"
         suppressHydrationWarning
