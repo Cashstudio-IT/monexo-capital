@@ -50,7 +50,7 @@ export default function MarketsTemplate({
 
         <div className="relative z-10 flex max-w-4xl flex-col items-center px-6">
           <p className="text-xs uppercase tracking-[0.25em] text-white/80">{eyebrow}</p>
-          <h1 className="mt-3 font-tasa text-5xl font-semibold tracking-tight text-[#9E7C3E] sm:text-7xl">
+          <h1 className="mt-2 font-tasa text-5xl font-semibold tracking-tight text-[#9E7C3E] sm:text-7xl" style={{ lineHeight: 1.1 }}>
             {title}
           </h1>
 

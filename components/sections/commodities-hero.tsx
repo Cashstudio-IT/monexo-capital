@@ -176,7 +176,7 @@ export default function CommoditiesHero() {
                         MONEXO CAPITAL
                     </p>
 
-                    <h1 className="font-tasa text-5xl sm:text-7xl font-semibold tracking-tight text-#9E7C3E">
+                    <h1 className="mt-2 font-tasa text-5xl sm:text-7xl font-semibold tracking-tight text-#9E7C3E" style={{ lineHeight: 1.1 }}>
                         Commodities Trading
                     </h1>
 
@@ -339,7 +339,7 @@ export default function CommoditiesHero() {
                             <div className="text-[#9E7C3E] mb-6">
                                 <RegulatedIcon />
                             </div>
-                            <h4 className="text-[18px] font-semibold text-[#2A1E1E] mb-3">
+                            <h4 className="text-[18px] font-semibold text-[#2A1E1E] mb-3" style={{ letterSpacing: "0.5px", lineHeight: "28px" }}>
                                 Regulated & Trusted
                             </h4>
                             <p className="text-[14px] leading-7 text-[#2A1E1E]/70">
@@ -352,7 +352,7 @@ export default function CommoditiesHero() {
                             <div className="text-[#9E7C3E] mb-6">
                                 <ZeroCommissionIcon />
                             </div>
-                            <h4 className="text-[18px] font-semibold text-[#2A1E1E] mb-3">
+                            <h4 className="text-[18px] font-semibold text-[#2A1E1E] mb-3" style={{ letterSpacing: "0.5px", lineHeight: "28px" }}>
                                 Zero Commission Trading
                             </h4>
                             <p className="text-[14px] leading-7 text-[#2A1E1E]/70">
@@ -365,7 +365,7 @@ export default function CommoditiesHero() {
                             <div className="text-[#9E7C3E] mb-6">
                                 <TradingPlatformIcon />
                             </div>
-                            <h4 className="text-[18px] font-semibold text-[#2A1E1E] mb-3">
+                            <h4 className="text-[18px] font-semibold text-[#2A1E1E] mb-3" style={{ letterSpacing: "0.5px", lineHeight: "28px" }}>
                                 Advanced Trading Platform
                             </h4>
                             <p className="text-[14px] leading-7 text-[#2A1E1E]/70">
@@ -378,7 +378,7 @@ export default function CommoditiesHero() {
                             <div className="text-[#9E7C3E] mb-6">
                                 <FastExecutionIcon />
                             </div>
-                            <h4 className="text-[18px] font-semibold text-[#2A1E1E] mb-3">
+                            <h4 className="text-[18px] font-semibold text-[#2A1E1E] mb-3" style={{ letterSpacing: "0.5px", lineHeight: "28px" }}>
                                 Fast Market Execution
                             </h4>
                             <p className="text-[14px] leading-7 text-[#2A1E1E]/70">
@@ -391,7 +391,7 @@ export default function CommoditiesHero() {
                             <div className="text-[#9E7C3E] mb-6">
                                 <FlexibleAccountIcon />
                             </div>
-                            <h4 className="text-[18px] font-semibold text-[#2A1E1E] mb-3">
+                            <h4 className="text-[18px] font-semibold text-[#2A1E1E] mb-3" style={{ letterSpacing: "0.5px", lineHeight: "28px" }}>
                                 Flexible Account Types
                             </h4>
                             <p className="text-[14px] leading-7 text-[#2A1E1E]/70">
@@ -404,7 +404,7 @@ export default function CommoditiesHero() {
                             <div className="text-[#9E7C3E] mb-6">
                                 <GlobalMarketIcon />
                             </div>
-                            <h4 className="text-[18px] font-semibold text-[#2A1E1E] mb-3">
+                            <h4 className="text-[18px] font-semibold text-[#2A1E1E] mb-3" style={{ letterSpacing: "0.5px", lineHeight: "28px" }}>
                                 Global Market Access
                             </h4>
                             <p className="text-[14px] leading-7 text-[#2A1E1E]/70">
@@ -417,7 +417,7 @@ export default function CommoditiesHero() {
                             <div className="text-[#9E7C3E] mb-6">
                                 <EducationIcon />
                             </div>
-                            <h4 className="text-[18px] font-semibold text-[#2A1E1E] mb-3">
+                            <h4 className="text-[18px] font-semibold text-[#2A1E1E] mb-3" style={{ letterSpacing: "0.5px", lineHeight: "28px" }}>
                                 Education & Market Insights
                             </h4>
                             <p className="text-[14px] leading-7 text-[#2A1E1E]/70">
@@ -430,7 +430,7 @@ export default function CommoditiesHero() {
                             <div className="text-[#9E7C3E] mb-6">
                                 <SupportIcon />
                             </div>
-                            <h4 className="text-[18px] font-semibold text-[#2A1E1E] mb-3">
+                            <h4 className="text-[18px] font-semibold text-[#2A1E1E] mb-3" style={{ letterSpacing: "0.5px", lineHeight: "28px" }}>
                                 24/7 Client Support
                             </h4>
                             <p className="text-[14px] leading-7 text-[#2A1E1E]/70">
